@@ -1,0 +1,6 @@
+imie = input()
+plec = imie[-1]
+if plec == "a":
+  print("Jestes kobieta")
+else:
+  print("Jestes mezyczna")
