@@ -1,0 +1,11 @@
+def dochod(a):
+  return dochod(a)
+a=float(input("Podaj dochod "))
+def podatek(b):
+  return podatek(b)
+b=float(input("Podaj podatek "))
+
+liczba2=b/100
+liczba3=a*liczba2
+przychod=abs(dochod-liczba3)
+print(przychod)
