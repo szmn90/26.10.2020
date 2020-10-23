@@ -1,0 +1,26 @@
+def suma_kwadratow(x, y):
+   print(x**2+y**2)
+   return
+
+def kwadrat_sumy(a, b):
+    print(a+b)**2
+    return
+
+def szescian_roznicy(a, b):
+    return (a-b)**3
+
+def mnozenie(a, b, c):
+    return a*b*c
+
+def procenty(a,b):
+    a=int(input())
+    b=int(input())
+    c = 2*(a+b)/5
+    c = (a+b)*0.4
+    return c
+
+def cena(p):
+    return p/1.23
+
+def reszta_z_mnozenia(a, b):
+    return a%b
