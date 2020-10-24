@@ -1,17 +1,27 @@
-def suma_kwadratow(x, y):
-   print(x**2+y**2)
-   return
+#zadanie 1
+def suma_kwadratow(a, b):
+  c = (a**2 + b**2)
+return c
 
+a = input("Podaj a ")
+b = input("Podaj b ")
+
+print("suma kwadratow wynosi" + a**2+b**2)
+
+#zadanie2
 def kwadrat_sumy(a, b):
     print(a+b)**2
     return
 
+#zadanie 3
 def szescian_roznicy(a, b):
     return (a-b)**3
 
+#zadanie 4
 def mnozenie(a, b, c):
     return a*b*c
 
+#zadanie 5
 def procenty(a,b):
     a=int(input())
     b=int(input())
@@ -19,8 +29,10 @@ def procenty(a,b):
     c = (a+b)*0.4
     return c
 
+#zadanie 6
 def cena(p):
     return p/1.23
 
+#zadanie 7
 def reszta_z_mnozenia(a, b):
     return a%b
