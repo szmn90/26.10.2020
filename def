@@ -34,17 +34,21 @@ def mnozenie(a,b, c):
 print(mnozenie)
 
 #zadanie 5
-def procenty(a,b):
+def procenty(a, b, c):
     a=int(input())
     b=int(input())
     c = 2*(a+b)/5
     c = (a+b)*0.4
     return c
+print(procenty)
 
 #zadanie 6
-def cena(p):
-    return p/1.23
+brutto = int(input("podaj cene brutto "))
+netto = brutto/1.23
+print(netto)
 
 #zadanie 7
-def reszta_z_mnozenia(a, b):
-    return a%b
+a = int(input("podaj a "))
+b = int(input("podaj b "))
+reszta_z_dzielenia = a%b
+print(reszta_z_dzielenia)
