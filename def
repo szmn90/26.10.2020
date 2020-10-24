@@ -1,12 +1,9 @@
 #zadanie 1
-def suma_kwadratow(a, b):
-  c = (a**2 + b**2)
-return c
-
 a = input("Podaj a ")
 b = input("Podaj b ")
-
-print("suma kwadratow wynosi" + a**2+b**2)
+def suma_kwadratow(a, b):
+  return (a**2)+(b**2)
+print(suma_kwadratow)
 
 #zadanie2
 def kwadrat_sumy(a, b):
